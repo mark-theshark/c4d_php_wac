@@ -6,19 +6,6 @@ workspace:
     docker:
       image:
         value: index.docker.io/marktmilligan/phpstorm:latest
-      container-based-vm:
-        value: true
-      cpu: 
-        value: 4
-      memory:
-        value: 4 
-      disk:
-        value: 10
-      gpu-count:
-        value: 0
-      labels:
-        value:  
-          com.coder.custom.chargeback: "php_team32"
   configure:
     start:
       value:
